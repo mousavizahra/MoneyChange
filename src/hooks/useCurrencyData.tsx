@@ -1,5 +1,4 @@
-// src/hooks/useCurrencyData.ts
-import { useState, useEffect, useCallback } from 'react';
+ import { useState, useEffect, useCallback } from 'react';
 import { fetchCurrencies, fetchExchangeRate } from '../services/CurrencyService';
 
 export const useCurrencyData = (fromCurrency: string, toCurrency: string) => {
